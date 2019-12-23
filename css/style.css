@@ -27,4 +27,28 @@ dl{
  p{
      border: black 2px solid;
      background-color: darkkhaki;
+     
  }
+ dt{
+     background-color:saddlebrown;
+     width: 5%;
+   
+ }
+
+ .encadre{
+     background-color: white;
+     padding: 5px;
+     border: black solid 4px;
+     font-size: 18px;
+     width: 15%;
+ }
+ abbr{
+     border: 1px dotted orange;
+ }
+
+ blockquote{
+     background-color: rgb(236, 187, 170);
+     text-indent: 20px;
+     padding: 5px;
+ }
+
