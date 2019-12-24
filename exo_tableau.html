@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tableaux html</title>
+    <style>
+        dl {
+            background-color: blanchedalmond;
+        }
+        dt {
+            font-weight: bold;
+           
+        }
+
+        dd {
+            font-style: italic;
+            
+        }
+        /* les styles pour les tableaux*/
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+            width: 80%;
+            border-collapse: collapse;
+            /*border-collapse: collapse; permet de fussionner le tableau*/
+        }
+        /*even pair Odd impair et tr ranger du tableau*/
+        tr:nth-child(even){
+            background-color: lightblue;
+        }
+
+        td, th {
+            border: 1px solid black;
+            text-align: left;
+            padding: 8px;
+        }
+
+        caption {
+            border: 1px solid black;
+            padding: 5px;
+            background-color: cornsilk;
+            color: darkslategrey;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1> Des tableaux et une liste de définition</h1>
+
+    <dl>
+        <dt>Vacance</dt>
+            <dd>Période de congés des personnes en activité.</dd>
+        <dt>Travail</dt>     
+            <dd>Activité humaine organisée et utile.Ensemble de ces activités.</dd>
+    </dl>
+
+    <hr>
+
+    <h2>Des tableaux</h2>
+    <!--table>tr*6>td*3{cellule}-->
+    <table>
+        <!-- caption = legende du tableau-->
+        <caption>Les compagnie les plus polluantes</caption>
+        <tr>
+            <th>Compagnie</th>
+            <th>Contact</th>
+            <th>Pays</th>
+            <td>Téléphone</td>
+        </tr>
+        <tr>
+            <td>Auchan</td>
+            <td>M<sup>me</sup>Auchan</td>
+            <td>France</td>
+            <td>444555545</td>
+        </tr>
+        <tr>
+            <td>Carrefour</td>
+            <td>M. carrefour</td>
+            <td>France</td>
+            <td>7777777777</td>
+        </tr>
+        <tr>
+            <td>Lidl</td>
+            <td>Frau Lidl</td>
+            <td>Allemagne</td>
+            <td>5555666622</td>
+        </tr>
+        <tr>
+            <td>Leclerc</td>
+            <td>M. Le Couennec</td>
+            <td>Bretagne</td>
+            <td>
+                <ul>
+                <li>4466546465</li>
+                <li>32542542</li>
+                <li>54242542</li>
+            </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="https://www.picard.fr/on/demandware.store/Sites-picard-Site/default/Default-Start?gclid=CjwKCAiAi4fwBRBxEiwAEO8_HrqFl86V4z4NT0LtWBxSScohak5IBSE7UmKpfBdH8OY7XII6h0Li_RoCFu0QAvD_BwE&gclsrc=aw.ds" target="_blank" title="le site de picard"> Picard</a></td>
+            <td>M. Picard</td>
+            <td>France</td>
+            <td>9999933333</td>
+        </tr>
+        </table>
+
+        <br>
+        <hr>
+
+            <h2> un tableau avec fusion de colonne</h2>
+
+        <table>    
+        <tr>
+            <th>Nom</th>
+            <th colspan="2">Courriel</th>
+            
+        </tr>
+        <tr>
+            <td>Marie </td>
+            <td><a href="mailto:coquine@gmail.fr" target="_blank" > Call-Girl</a></td>
+            <td>Escort-Girl</td>           
+        </tr>  
+        </table>
+        <br>
+        <hr>
+        <h2> un tableau avec fusion de rangées</h2>
+
+        <!--table>tr*3>td*2-->
+        <table>
+            <tr>
+                <th>Nom</th>
+                <th>Bill Gates</th>
+            </tr>
+            <tr>
+                <td rowspan="3">Téléphone</td>
+                <td>062222222</td>
+            </tr>
+            <tr>
+                <td>0611111111</td>
+                
+            </tr>
+            <tr>
+                <td>0617777711</td>
+            
+            </tr>
+        </table>
+
+
+<br><br><br><br><br> <br>
+
+
+
+</body>
+</html>
