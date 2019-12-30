@@ -1,175 +1,228 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>mignon</title>
-    <style>
-    body{
-        background-color: pink;
-    }
 
-    .jaune{
+    <style>
+    .jaune {
         background-color: yellow;
     }
     
-    .bleue{
+    .bleue {
         background-color: blue;
         }
 
-    .black{
+    .black {
         background-color: black;
     }
 
-    .gray{
+    .gray {
         background-color: gray;
     }
 
-    .white{
+    .white {
         background-color: white;
     }
 
-    td{
-        width: 40px;
-        height: 40px;
+    td {
+        width: 2em;
+        height: 2em;
+        /* border: 1px solid black; */
+    } 
+    
+    body {
+        background-color: pink;
+    }
+       
+    section {
+       
+        margin: 0 auto;
+         /*margin 0 et auto sont les déclarations raccourcis cf.https://developer.mozilla.org/fr/docs/Web/CSS/Propri%C3%A9t%C3%A9s_raccourcies auto permet de center la section à droite et à gauche dans l'élément parent*/
+        width: 60%;
+    }
+    table {
+        border-collapse: collapse;
+        background-color: white;
     }
     </style>
 </head>
 <body>
-    <section>
-        <table>
-            <tr>
-                <td class=""></td>
-                <td class=""></td>
-                <td class=""></td>
-                <td class=""></td>
-                <td class="jaune"></td>
-                <td class="jaune"></td>
-                <td class="jaune"></td>
-                <td class="jaune"></td>
-                <td class="jaune"></td>
-                <td class="jaune"></td>
-                <td class=""></td>
-                <td class=""></td>
-                <td class=""></td>
-                <td class=""></td>
-            </tr>
-       
-        </table>
-            <table>
-                <tr>
-                    <td class=""></td>
-                    <td class=""></td>
-                    <td class=""></td>
-                     <td class="jaune"></td>
-                    <td class="jaune"></td>
-                    <td class="jaune"></td>
-                    <td class="gray"></td>
-                    <td class="gray"></td>
-                    <td class="jaune"></td>
-                    <td class="jaune"></td>
-                    <td class="jaune"></td>
-                    <td class=""></td>
-                    <td class=""></td>
-                    <td class=""></td>
-            
-                </tr>
-            
-            </table>
-            <table>
-                <tr>
-                    <td class=""></td>
-                    <td class=""></td>
-                    <td class="jaune"></td>
-                    <td class="jaune"></td>
-                    <td class="jaune"></td>
-                    <td class="gray"></td>
-                    <td class="white"></td>
-                    <td class="white"></td>
-                    <td class="gray"></td>
-                    <td class="jaune"></td>
-                    <td class="jaune"></td>
-                    <td class="jaune"></td>
-                    <td class=""></td>
-                    <td class=""></td>
-            
-                </tr>
-            
-            </table>
-
-            <table>
-            <tr>
-            <td class=""></td>
-            <td class=""></td>
-            <td class="black"></td>
-            <td class="black"></td>
-            <td class="gray"></td>
-            <td class="white"></td>
-            <td class="black"></td>
-            <td class="black"></td>
-            <td class="white"></td>
-            <td class="gray"></td>
-            <td class="black"></td>
-            <td class="black"></td>
-            <td class=""></td>
-            <td class=""></td>
-        </table>
-
-        <table>
-            <tr>
-        <td class=""></td>
-        <td class=""></td>
-        <td class="black"></td>
-        <td class="black"></td>
-        <td class="gray"></td>
-        <td class="white"></td>
-        <td class="black"></td>
-        <td class="black"></td>
-        <td class="white"></td>
-        <td class="gray"></td>
-        <td class="black"></td>
-        <td class="black"></td>
-        <td class=""></td>
-        <td class=""></td>
-        </table>
-
-
-        <table>
-        </tr>
-        <td class=""></td>
-        <td class=""></td>
-        <td class="jaune"></td>
-        <td class="jaune"></td>
-        <td class="jaune"></td>
-        <td class="gray"></td>
-        <td class="white"></td>
-        <td class="white"></td>
-        <td class="gray"></td>
-        <td class="jaune"></td>
-        <td class="jaune"></td>
-        <td class="jaune"></td>
-        <td class=""></td>
-        <td class=""></td>
-    </table>
+    <div id="mignon">
     <table>
         <tr>
-            <td class=""></td>
-            <td class=""></td>
-            <td class=""></td>
-            <td class=""></td>
-            <td class=""></td>
-            <td class=""></td>
-            <td class=""></td>
-            <td class=""></td>
-            <td class=""></td>
-            <td class=""></td>
-            <td class=""></td>
-            <td class=""></td>
-            <td class=""></td>
-            <td class=""></td>
+            <td colspan="14"></td>
+           
+        </tr>
+        <tr>
+            <td colspan="4"></td>
+            <td colspan="6" class="jaune" ></td>
+            <td colspan="4"></td>
+           
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+            <td colspan="3" class="jaune"></td>
+            <td colspan="2" class="gray"></td>
+            <td colspan="3" class="jaune"></td>
+            <td colspan="3"></td>
+            
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="3" class="jaune"></td>
+            <td colspan="1" class="gray"></td>
+            <td colspan="2" class="white"></td>
+            <td colspan="1" class="gray"></td>
+            <td colspan="3" class="jaune"></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="2" class="black" ></td>
+            <td colspan="1" class="gray" ></td>
+            <td colspan="1" class="white" ></td>
+            <td colspan="2" class="black" ></td>
+            <td colspan="1" class="white"  ></td>
+            <td colspan="1" class="gray" ></td>
+            <td colspan="2" class="black"></td>
+            <td colspan="2"></td>
+
+           
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="2" class="black" ></td>
+            <td colspan="1" class="gray" ></td>
+            <td colspan="1" class="white" ></td>
+            <td colspan="2" class="black" ></td>
+            <td colspan="1" class="white"  ></td>
+            <td colspan="1" class="gray" ></td>
+            <td colspan="2" class="black"></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="3" class="jaune"></td>
+            <td colspan="1" class="gray"></td>
+            <td colspan="2" class="white"></td>
+            <td colspan="1" class="gray"></td>
+            <td colspan="3" class="jaune"></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            
+            <td colspan="2"></td>
+            <td colspan="4" class="jaune"></td>
+            <td colspan="2" class="gray"></td>
+            <td colspan="4" class="jaune"></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+        <td colspan="2"></td>
+        <td colspan="2" class="jaune"></td>
+        <td colspan="1" class="black"></td>
+        <td colspan="4" class="jaune"></td>
+        <td colspan="1" class="black"></td>
+        <td colspan="2" class="jaune" ></td>
+        <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="3" class="jaune"></td>
+            <td colspan="4" class="black"></td>
+            <td colspan="3" class="jaune"></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="10" class="jaune"></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="1" class="bleue"></td>
+            <td colspan="8" class="jaune" ></td>
+            <td colspan="1" class="bleue"></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="1" class="jaune"></td>
+            <td colspan="8" class="bleue"></td>
+            <td colspan="1" class="jaune"></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="2" class="jaune"></td>
+            <td colspan="6" class="bleue"></td>
+            <td colspan="2" class="jaune"></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+        <td colspan="2"></td>
+        <td colspan="2" class="jaune"></td>
+        <td colspan="6" class="bleue"></td>
+        <td colspan="2" class="jaune"></td>
+        <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="1" class="jaune"></td>
+            <td colspan="8" class="bleue"></td>
+            <td colspan="1" class="jaune"></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="1"></td>
+            <td colspan="2" class="black"></td>
+            <td colspan="8" class="bleue"></td>
+            <td colspan="2" class="black"></td>
+            <td colspan="1"></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="1" class="black"></td>
+            <td colspan="8" class="bleue"></td>
+            <td colspan="1" class="black"></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="4"></td>
+            <td colspan="2" class="black"></td>
+            <td colspan="2" class="white" ></td>
+            <td colspan="2" class="black"></td>
+            <td colspan="4"></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+            <td colspan="3" class="black"></td>
+            <td colspan="2" class="white"></td>
+            <td colspan="3" class="black"></td>
+            <td colspan="3"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
     </table>
-    </section>
+</div>
 
     
 </body>
